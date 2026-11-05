@@ -216,7 +216,7 @@ const Footer = () => {
                     <div className="flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-5 text-center sm:flex-row">
 
                         <p className="text-xs text-[#B8C7DA]">
-                            © {new Date().getFullYear()} TheRapy. All rights reserved.
+                            © 2026 TheRapy. All rights reserved.
                         </p>
 
                         <p className="text-xs text-[#B8C7DA]">
