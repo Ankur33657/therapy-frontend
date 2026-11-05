@@ -1,11 +1,5 @@
-import Image from "next/image";
-import ThemeToggle from "@/components/themeToggle";
-import DesktopNavbar from "@/components/DesktopNavbar";
+import { redirect } from "next/navigation";
+
 export default function Home() {
-  return (
-     <div>
-      <ThemeToggle/>
-      <DesktopNavbar/>
-     </div>
-  );
+  redirect("/user");
 }
